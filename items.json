@@ -1,5 +1,11 @@
 {
-    "drinks": ["drink1", "drink2"],
-    "food": ["Sandwich", "Chips", "Cookie", "Toast", "Salad"],
-    "pastries": ["Croissant", "Donut", "Cinnamon roll"]
+    "Drip Coffee & Tea": ["Drip Coffee", "*Drip Coffee Refill", "Cafe Au Lait", "Cold Brew Coffee", "Cold Brew Americano", "Tea - Hot or Iced"],
+    "Cold Beverages": ["Custom Smoothie", "Custom Lotus Energy", "Titan Freeze", "Titan Creme Freeze", "Italian Soda", "Flavored Lemonade", "Real Fruit Blended Lemonade", "Thai Iced Tea", "Cold Milk - No Flavor"],
+    "Espresso & More": ["Doppio", "Con Panna", "Cortado", "Latte", "Flavored Latte / Mocha", "Americano", "Cappuccino", "Chai Tea Latte", "Matcha Latte", "Tea Latte", "Hot Chocolate (Or Chocolate Milke)", "Spiced Apple Cider", "Steamer (Or Flavored Cold Milk)"]
+    "Extras": ["Extra Shot", "Extra Tea Bag", "Flavor", "Whipped Cream", "Alternative Milk (Oat, Soy, Coconut, Breve)", "Drizzle", "Drink Topper (Lemonade or Pineapple Juice)", "Cream Topper (For Lotus)", "Cold Foam", "Extra Fruit", "Chia Seeds", "Protein Powder", "Cream Cheese", "Add Matcha", "Add Spices", "Add Lotus"]
+    "Titan Drink Specialties": ["Golden Latte", "Ambrosia Latte", "Titan Fog", "Sweet Nectar", "King Midas", "Olympic Sky", "Secret Garden", "Ancient Healing"]
+    "Seasonal Drink Specialties": ["1960's - I Have A Dream Sweet Tea", "1970's - Lava Lamp Lotus", "1980's Mt. St Helens Mocha", "1990's - CHAI-2K", "2000's - Blockbuster Lotus", "2010's - Breaking Dawn Italian Soda", "2020's - Quarantine Dalgona"]
+    "Oatmeal": ["Strawberry Vanilla", "Apple Cinnamon", "Blueberry Maple", "Roasted Almond", "Banana Nut"],
+    "Pastries": ["Croissant", "Rice Krispy Treat", "Bagels", "Doughnuts", "Cheese Bagels", "Croissants"]
+    "Cookies": ["Chocolate Chip Muffin Top", "Chocolate Chip Cookie", "Lemon Poppyseed Muffin Top", "White Chocolate Cookie", "Creme Brulee Muffin Top", "Snickerdoodle Cookie", "Peanut Butter Cookie", "Banana Nut Muffin Top", "Pink Frosted Cookie"]
 }
