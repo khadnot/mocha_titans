@@ -1,5 +1,5 @@
 {
-    "drinks": [],
-    "food": [],
-    "pastries": []
+    "drinks": ["drink1", "drink2"],
+    "food": ["food1", "food2"],
+    "pastries": ["pastries1", "pastries2"]
 }
