@@ -1,17 +1,17 @@
 async function pageLoaded() {
     console.log("page loaded")
-    const food = await getFood();
-    for(let i = 0; i < food.length; i++) {
-        const item = food[i];
+    const pastries = await getOatmeal();
+    for(let i = 0; i < pastries.length; i++) {
+        const item = pastries[i];
         const button = document.createElement("button");
         button.innerText = item;
         document.body.appendChild(button);
-        button.onclick = addFoodToCart.bind(null, item);
+        button.onclick = addOatmealToCart.bind(null, item);
     }
     
 }
 
-function addFoodToCart(item) {
+function addOatmealToCart(item) {
     const currentCart = document.cookie.split('=')[1];
     if (document.cookie == "cart=") {
         document.cookie = 'cart=' + item + "; path=/";
@@ -22,12 +22,13 @@ function addFoodToCart(item) {
 }
 
 function clearCart() {
+    document.cookie = "cart=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
     document.cookie = 'cart=; path=/';
     console.log("cart cleared");
 }
 
-async function getFood() {
+async function getOatmeal() {
     const response = await fetch('../items.json');
     const data = await response.json();
-    return data.food;
+    return data.oatmeal;
 }

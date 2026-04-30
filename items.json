@@ -1,13 +1,10 @@
 {
-    "Drip Coffee & Tea": ["Drip Coffee", "Drip Coffee Refill", "Cafe Au Lait", "Cold Brew Coffee", "Cold Brew Americano", "Hot Tea", "Iced Tea"],
-    "Cold Beverages": ["Titan Freeze", "Titan Creme Freeze", "Italian Soda", "Flavored Lemonade", "Real Fruit Blended Lemonade", "Thai Iced Tea", "Cold Milk - No Flavor"],
-    "Espresso & More": ["Doppio", "Con Panna", "Cortado", "Latte", "Flavored Latte / Mocha", "Americano", "Cappuccino", "Chai Tea Latte", "Matcha Latte", "Tea Latte", "Hot Chocolate (Or Chocolate Milke)", "Spiced Apple Cider", "Flavored Milk"],
-    "Titan Drink Specialties": ["Golden Latte", "Ambrosia Latte", "Titan Fog", "Sweet Nectar", "King Midas", "Olympic Sky", "Secret Garden", "Ancient Healing"],
-    "Seasonal Drink Specialties": ["1960's - I Have A Dream Sweet Tea", "1970's - Lava Lamp Lotus", "1980's Mt. St Helens Mocha", "1990's - CHAI-2K", "2000's - Blockbuster Lotus", "2010's - Breaking Dawn Italian Soda", "2020's - Quarantine Dalgona"],
-    "Oatmeal": ["Strawberry Vanilla", "Apple Cinnamon", "Blueberry Maple", "Roasted Almond", "Banana Nut"],
-    "Pastries": ["Croissant", "Rice Krispy Treat", "Bagels", "Doughnuts", "Cheese Bagels", "Croissants"],
-    "Cookies": ["Chocolate Chip Muffin Top", "Chocolate Chip Cookie", "Lemon Poppyseed Muffin Top", "White Chocolate Cookie", "Creme Brulee Muffin Top", "Snickerdoodle Cookie", "Peanut Butter Cookie", "Banana Nut Muffin Top", "Pink Frosted Cookie"],
-    "foodData": {
+    "drinks" : [
+    "Golden Latte", "Ambrosia Latte", "Titan Fog", "Sweet Nectar", "King Midas", "Olympic Sky", "Secret Garden", "Ancient Healing",
+    "1960's - I Have A Dream Sweet Tea", "1970's - Lava Lamp Lotus", "1980's Mt. St Helens Mocha", "1990's - CHAI-2K", "2000's - Blockbuster Lotus", "2010's - Breaking Dawn Italian Soda", "2020's - Quarantine Dalgona"],
+    "oatmeal": ["Strawberry Vanilla Oatmeal", "Apple Cinnamon Oatmeal", "Blueberry Maple Oatmeal", "Roasted Almond Oatmeal", "Banana Nut Oatmeal"],
+    "food": ["Croissant", "Rice Krispy Treat", "Bagels", "Doughnuts", "Cheese Bagels", "Croissants", "Chocolate Chip Muffin Top", "Chocolate Chip Cookie", "Lemon Poppyseed Muffin Top", "White Chocolate Cookie", "Creme Brulee Muffin Top", "Snickerdoodle Cookie", "Peanut Butter Cookie", "Banana Nut Muffin Top", "Pink Frosted Cookie"],
+        "foodData": {
         "1960's - I Have A Dream Sweet Tea" : {
             "type" : "drink",
             "sizes" : {
@@ -59,7 +56,9 @@
         "2020's - Quarantine Dalgona": {
             "type" : "drink",
             "sizes" : {
-                "l" : 4.75
+                "s" : 4.75,
+                "m" : 6.25,
+                "l" : 7.75
             }
         },
         "Golden Latte" : {
@@ -124,12 +123,6 @@
                 "s" : 6.15,
                 "m" : 8.15,
                 "l" : 10.15
-            }
-        },
-        "Croissant" : {
-            "type" : "food",
-            "sizes" : {
-                "medium" : 2.50
             }
         }
     }
