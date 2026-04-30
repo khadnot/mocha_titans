@@ -11,7 +11,10 @@ async function pageLoaded() {
 }
 
 function addDrinkToCart(drink) {
-    console.log(`Added ${drink} to cart`);
+    let cart = JSON.parse(localStorage.getItem('cart') || '[]');
+    cart.push(drink);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert(`${drink} added to cart!`);
 }
 
 async function getDrinks() {
