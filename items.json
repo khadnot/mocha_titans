@@ -8,12 +8,122 @@
     "Pastries": ["Croissant", "Rice Krispy Treat", "Bagels", "Doughnuts", "Cheese Bagels", "Croissants"],
     "Cookies": ["Chocolate Chip Muffin Top", "Chocolate Chip Cookie", "Lemon Poppyseed Muffin Top", "White Chocolate Cookie", "Creme Brulee Muffin Top", "Snickerdoodle Cookie", "Peanut Butter Cookie", "Banana Nut Muffin Top", "Pink Frosted Cookie"],
     "foodData": {
-        "Drip Coffee" : {
+        "1960's - I Have A Dream Sweet Tea" : {
             "type" : "drink",
             "sizes" : {
-                "small" : 1.00,
-                "medium" : 1.50,
-                "large" : 2.00
+                "s" : 2.50,
+                "m" : 3.75,
+                "l" : 4.00
+            }
+        },
+        "1970's - Lava Lamp Lotus" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 4.25,
+                "m" : 5.75,
+                "l" : 7.25
+            }
+        },
+        "1980's Mt. St Helens Mocha" : {
+            "type" : "drink",
+                "sizes" : {
+                "s" : 6.75,
+                "m" : 7.75,
+                "l" : 8.75
+            }
+        },
+        "1990's - CHAI-2K" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 6.00,
+                "m" : 7.00,
+                "l" : 8.00
+            }
+        },
+        "2000's - Blockbuster Lotus" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 6.25,
+                "m" : 7.75,
+                "l" : 9.25
+            }
+        },
+        "2010's - Breaking Dawn Italian Soda" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 4.75,
+                "m" : 6.25,
+                "l" : 7.75
+            }
+        },
+        "2020's - Quarantine Dalgona": {
+            "type" : "drink",
+            "sizes" : {
+                "l" : 4.75
+            }
+        },
+        "Golden Latte" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 5.40,
+                "m" : 6.40,
+                "l" : 7.40
+            }
+        },
+        "Ambrosia Latte" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 5.25,
+                "m" : 6.25,
+                "l" : 7.25
+            }
+        },
+        "Titan Fog" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 4.50,
+                "m" : 5.50,
+                "l" : 6.25
+            }
+        },
+        "Sweet Nectar" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 3.50,
+                "m" : 4.75,
+                "l" : 5.00
+            }
+        }, 
+        "King Midas" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 5.25,
+                "m" : 6.75,
+                "l" : 8.25
+            }
+        }, 
+        "Olympic Sky" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 4.25,
+                "m" : 5.75,
+                "l" : 7.25
+            }
+        }, 
+        "Secret Garden" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 7.50,
+                "m" : 9.50,
+                "l" : 11.50
+            }
+        }, 
+        "Ancient Healing" : {
+            "type" : "drink",
+            "sizes" : {
+                "s" : 6.15,
+                "m" : 8.15,
+                "l" : 10.15
             }
         },
         "Croissant" : {
