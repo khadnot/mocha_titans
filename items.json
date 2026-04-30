@@ -1,5 +1,5 @@
 {
     "drinks": ["drink1", "drink2"],
-    "food": ["Sandwich", "Chips", "Cookie", "Toast", "Salad"]
+    "food": ["Sandwich", "Chips", "Cookie", "Toast", "Salad"],
     "pastries": ["Croissant", "Donut", "Cinnamon roll"]
 }
